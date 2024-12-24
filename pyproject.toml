@@ -1,0 +1,23 @@
+[project]
+name = "gojek"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "ferdhiee", email = "ardiansyahferdi920@gmail.com"},
+    {name = "firman", email = "firmanramadhani446@gmail.com"},
+]
+dependencies = [
+    "pandas>=2.2.3",
+    "scikit-learn>=1.6.0",
+    "tensorflow>=2.18.0",
+    "matplotlib>=3.10.0",
+    "streamlit>=1.41.1",
+    "wordcloud>=1.9.4",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
